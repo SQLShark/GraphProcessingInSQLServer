@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GraphScripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ACLTPMWIN10\CTPTWO:ACL\TPM">
+          <Created>2017-07-10T22:24:23.199713+01:00</Created>
+          <Type>SQL</Type>
+          <Server>ACLTPMWIN10\CTPTWO</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="graphdbb.database.windows.net:graph">
+          <Created>2018-02-24T09:35:50.4741261+00:00</Created>
+          <Type>SQL</Type>
+          <Server>graphdbb.database.windows.net</Server>
+          <UserName>graph</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sqlgla.database.windows.net:sqlgla">
+          <Created>2018-09-14T10:24:40.9172367+01:00</Created>
+          <Type>SQL</Type>
+          <Server>sqlgla.database.windows.net</Server>
+          <UserName>sqlgla</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00_CreateDatabase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlgla.database.windows.net:False:sqlgla</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlgla.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>sqlgla</AssociatedConnUserName>
+          <FullPath>00_CreateDatabase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_CreateNodesAndEdges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlgla.database.windows.net:False:sqlgla</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlgla.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>sqlgla</AssociatedConnUserName>
+          <FullPath>01_CreateNodesAndEdges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_PopulateNodesAndEdges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlgla.database.windows.net:False:sqlgla</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlgla.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>sqlgla</AssociatedConnUserName>
+          <FullPath>02_PopulateNodesAndEdges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlgla.database.windows.net:False:sqlgla</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlgla.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>sqlgla</AssociatedConnUserName>
+          <FullPath>03_Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_UsersAndRatings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlgla.database.windows.net:False:sqlgla</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlgla.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>sqlgla</AssociatedConnUserName>
+          <FullPath>04_UsersAndRatings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_RecommendationEngine.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlgla.database.windows.net:False:sqlgla</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlgla.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>sqlgla</AssociatedConnUserName>
+          <FullPath>05_RecommendationEngine.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

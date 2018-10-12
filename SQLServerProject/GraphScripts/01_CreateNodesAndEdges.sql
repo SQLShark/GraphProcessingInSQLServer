@@ -1,0 +1,37 @@
+USE Movies;
+GO
+
+
+
+-- Create NODE tables
+DROP TABLE IF EXISTS Genre;
+CREATE TABLE Genre (GenreId INTEGER PRIMARY KEY, Genre VARCHAR(100)) AS NODE;
+
+DROP TABLE IF EXISTS Movie;
+CREATE TABLE Movie (MovieId INTEGER PRIMARY KEY, Movie VARCHAR(100)) AS NODE;
+
+DROP TABLE IF EXISTS Actor;
+CREATE TABLE Actor (ActorId INTEGER PRIMARY KEY, Actor VARCHAR(100)) AS NODE;
+
+DROP TABLE IF EXISTS Director;
+CREATE TABLE Director (DirectorId INTEGER PRIMARY KEY, Director VARCHAR(100)) AS NODE;
+
+-- Create EDGE tables. 
+DROP TABLE IF EXISTS ActedIn;
+CREATE TABLE ActedIn AS EDGE;
+-- Actor ActedIn Movie
+
+DROP TABLE IF EXISTS DirectedBy;
+CREATE TABLE DirectedBy AS EDGE;
+-- Movie DirectedBy Director
+
+DROP TABLE IF EXISTS Starred;
+CREATE TABLE Starred AS EDGE;
+GO
+-- Movie Starred Actor
+
+
+
+SELECT * FROM dbo.movie
+
+SELECT * FROM dbo.actedin
